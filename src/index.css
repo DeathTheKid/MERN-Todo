@@ -1,0 +1,38 @@
+#todo-list {
+    list-style: none;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+
+#todo-list li {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#todo-list:last-child {
+    border-bottom: 0px;
+}
+
+#todo-list li:nth-child(even) {
+    background-color: #F6F6F6;
+}
+
+#title-bar {
+    background-color: #dc4c3f;
+    color: #FFF7E5;
+}
+
+#title {
+    text-align: center;
+}
+
+.remove-item {
+    color: crimson;
+    font-weight: bolder;
+    cursor: pointer;
+    float: right;
+}
+
+.todo-text {
+    padding-left: 20px;
+}
